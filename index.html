@@ -9,12 +9,12 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(45deg, #0a192f, #1c3b57);
+            background: linear-gradient(45deg, #2c2c2c, #1e1e1e);
             color: white;
             text-align: center;
         }
         header {
-            background: rgba(10, 25, 47, 0.9);
+            background: rgba(30, 30, 30, 0.9);
             padding: 20px;
             font-size: 28px;
             font-weight: bold;
@@ -25,61 +25,123 @@
         .container {
             width: 80%;
             margin: 20px auto;
-            background: rgba(255, 255, 255, 0.1);
+            background: rgba(255, 255, 255, 0.05);
             padding: 20px;
-            border-radius: 15px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
             transition: transform 0.3s ease;
+            text-align: left;
         }
         .container:hover {
-            transform: scale(1.05);
+            transform: scale(1.02);
         }
         .video iframe {
-            border-radius: 10px;
+            border: none;
         }
         a {
-            color: #64ffda;
+            color: #c0c0c0;
             text-decoration: none;
             font-weight: bold;
         }
         a:hover {
             text-decoration: underline;
         }
+        .socials {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-top: 20px;
+        }
+        .socials a {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            transition: transform 0.3s ease;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .socials a:hover {
+            transform: scale(1.05);
+        }
+        .socials img {
+            width: 30px;
+            height: 30px;
+        }
         footer {
             margin-top: 20px;
             padding: 15px;
-            background: rgba(10, 25, 47, 0.9);
+            background: rgba(30, 30, 30, 0.9);
             font-size: 14px;
         }
     </style>
 </head>
 <body>
     <header>
-        Lucien - Mediamatik Portfolio 🚀
+        Lucien - Mediamatik Portfolio
     </header>
     
     <div class="container">
-        <h2>🔥 Über mich</h2>
-        <p>Ich bin Lucien, voller Energie und Leidenschaft für Medien und Technik! Seit meiner Kindheit liebe ich es, digitale Inhalte zu erstellen und kreativ zu sein.</p>
-        <p>Ich arbeite mit: <strong>DaVinci Resolve, ChatGPT, CapCut, YouTube, TikTok</strong>.</p>
+        <h2>Über mich</h2>
+        <p>Ich strebe eine Ausbildung als Mediamatiker in EFZ an. Ich habe mich bereits stark mit den Aufgaben in diesem Bereich auseinandergesetzt und auch selber bereits eigene Videos zugeschnitten.</p>
     </div>
     
     <div class="container">
-        <h2>🎬 Meine Projekte</h2>
-        <p>Hier ist eines meiner geschnittenen Videos mit Effekten und gut gesetzten Schnitten:</p>
+        <h2>Schulische Erfahrung</h2>
+        <p><strong>Primarschule Pfeffingen</strong> | 1. – 6. Klasse</p>
+        <p><strong>Sekundarschule Arlesheim</strong> | 1 Jahr Leistungszug E</p>
+        <p><strong>Sekundarschule VIA, Liestal</strong> | seit 2 Jahren Leistungszug E</p>
+    </div>
+    
+    <div class="container">
+        <h2>Sprachkenntnisse</h2>
+        <p><strong>Deutsch:</strong> Muttersprache</p>
+        <p><strong>Französisch:</strong> Schulkenntnisse (seit 3. Klasse)</p>
+        <p><strong>Englisch:</strong> Schulkenntnisse (seit 5. Klasse)</p>
+    </div>
+    
+    <div class="container">
+        <h2>Informatikkenntnisse</h2>
+        <p><strong>Docs:</strong> Grundkenntnisse</p>
+        <p><strong>Word:</strong> Grundkenntnisse</p>
+        <p><strong>PowerPoint:</strong> Gute Kenntnisse</p>
+        <p><strong>DaVinci Resolve:</strong> Grundkenntnisse</p>
+    </div>
+    
+    <div class="container">
+        <h2>Hobbys und Freizeit</h2>
+        <p>Ich spiele gerne mit Freunden verschiedene Online-Spiele, wobei mir Teamarbeit und strategisches Denken wichtig sind.</p>
+        <p>Ich schneide und bearbeite gerne Videos, probiere neue Effekte aus und verbessere meine Fähigkeiten in der Videoproduktion.</p>
+        <p>Ich verbringe gerne Zeit mit Freunden, sei es draußen unterwegs oder bei gemeinsamen Aktivitäten.</p>
+        <p>Ich interessiere mich für digitale Medien, Grafikdesign und die neuesten Entwicklungen in der Technik.</p>
+    </div>
+    
+    <div class="container">
+        <h2>Meine Projekte</h2>
+        <p>Hier ist eines meiner geschnittenen Videos:</p>
         <div class="video">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/xSNNLUxaZtg" frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
     
     <div class="container">
-        <h2>📞 Kontakt</h2>
+        <h2>Social Media</h2>
+        <div class="socials">
+            <a href="https://www.tiktok.com/@pc.check?_t=ZN-8ummhOejTJm&_r=1" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/TikTok_logo.png" alt="TikTok"> TikTok
+            </a>
+            <a href="https://youtube.com/@daitoaya-_-?si=h-_NjGP4YqGMd1kU" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube"> YouTube
+            </a>
+        </div>
+    </div>
+    
+    <div class="container">
+        <h2>Kontakt</h2>
         <p>Email: <a href="mailto:Lucien.stoeckli@gmail.com">Lucien.stoeckli@gmail.com</a></p>
         <p>Telefon: +41 79 940 13 68</p>
     </div>
     
     <footer>
-        🚀 &copy; 2025 Lucien - Mediamatik Portfolio | Designed with Passion ❤️
+        &copy; 2025 Lucien - Mediamatik Portfolio
     </footer>
 </body>
 </html>
